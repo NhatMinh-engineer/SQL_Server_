@@ -76,6 +76,7 @@ Câu 16 : mở file dulieu.sql của bước 14, chạy toàn bộ các lệnh n
 
 Câu 17 : upload file dulieu.sql lên github repository của em (repository mà em đang edit file README.md)
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7f5c57e0-d2bd-4299-8716-055daa1838ff" />
 
 
 
