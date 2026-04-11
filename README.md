@@ -4,8 +4,9 @@ Mssv : K235480106097
   Em mong thầy xem bài làm và nhận xét giúp em , để em có thể ngày càng tốt hơn ạ 
 
 
-Câu 1 : Vì em bỏ qua các bước cấu hình nên em chụp kết quả
+Câu 1 : Vì lúc setup , em đã chọn chế độ basic nên nó đã bỏ qua bước login ạ , nên sau em bù bằng cách tạo sau, sau khi đã down xong ssms
 
+<img width="1919" height="1079" alt="Ảnh chụp màn hình 2026-04-12 012445" src="https://github.com/user-attachments/assets/aec862a7-55a1-4dcd-b310-a53c86f805aa" />
 
 
 Câu 2 : Cấu hình cho SQL Server làm việc
