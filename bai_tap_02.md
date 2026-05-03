@@ -727,7 +727,7 @@ GO
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f95a77e7-2761-491b-a07b-918d59013a42" />
 
-*Thưa Thầy , ù xuất hiện thông báo lỗi đỏ ở cuối do lệnh tạo bảng bị lặp, nhưng tab Messages đã hiện rõ kết quả phân bổ thành công cho Lop_A và Lop_B, đồng thời tự động báo lỗi cho Lop_C khi số lượng máy không còn đủ. Điều này khẳng định Cursor là công cụ tối ưu cho các bài toán xử lý tuần tự có điều kiện dừng phức tạp mà các lệnh SQL tập hợp thông thường rất khó can thiệp vào giữa quá trình vận hành.*
+*Thưa Thầy , dù xuất hiện thông báo lỗi đỏ ở cuối do lệnh tạo bảng bị lặp, nhưng tab Messages đã hiện rõ kết quả phân bổ thành công cho Lop_A và Lop_B, đồng thời tự động báo lỗi cho Lop_C khi số lượng máy không còn đủ. Điều này khẳng định Cursor là công cụ tối ưu cho các bài toán xử lý tuần tự có điều kiện dừng phức tạp mà các lệnh SQL tập hợp thông thường rất khó can thiệp vào giữa quá trình vận hành.*
 
 
   * Cảm ơn thầy đã chỉ dẫn tụi em . Những kiến thức từ SQL Server chắc chắn sẽ là hành trang quý giá để em áp dụng vào các dự án kỹ thuật tại trường trong thời gian tới. Nếu có dịp , thầy trò mik ra LongKa uống cốc bia cho xõa tan cái nóng Thái Nguyên này Thầy ạ =))))) 
