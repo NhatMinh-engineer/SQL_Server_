@@ -75,7 +75,8 @@ CREATE TABLE LogBienDong (
 
  * Tiếp theo em sẽ tạo 1 Database Diagrams
    
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/bcbf9470-8596-469d-9c3a-edeaf617c087" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/388c40ba-7a81-4385-a32f-17a8258d7adf" />
+
 
 *Dựa trên cấu trúc bảng đã cài đặt, em đã tiến hành thiết lập các mối quan hệ (Relationships) trực quan thông qua công cụ Database Diagram để hiện thực hóa quy trình nghiệp vụ. Trong đó, bảng HopDong đóng vai trò trung tâm, được kết nối với bảng KhachHang để xác định chủ khoản vay và bảng TaiSan để quản lý danh mục đồ cầm cố của từng hợp đồng. Đồng thời, các bảng NhanVien và LogBienDong cũng được liên kết chặt chẽ nhằm đảm bảo mọi biến động về dòng tiền và người thực hiện giao dịch đều được lưu vết đầy đủ, phục vụ cho việc kiểm soát nợ thời gian thực.*
 
@@ -256,6 +257,20 @@ END;
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/79de464f-11a8-4d95-b30d-90953c7d07a1" />
 
 *Em đã thiết lập cơ chế gia hạn hợp đồng, cho phép khách hàng thanh toán toàn bộ lãi tích lũy để dời mốc Deadline, giúp đưa hợp đồng trở về trạng thái an toàn và tránh gánh nặng lãi kép.*
+
+* tiến hành giả lập một giao dịch trả nợ thực tế
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ad44c47c-3ee0-41e5-851a-956fa60cbccd" />
+
+*Để chứng thực các quy tắc nghiệp vụ đã cài đặt, em đã tiến hành giả lập một giao dịch trả nợ thực tế cho khách hàng Nguyễn Minh. Kết quả cho thấy Store Procedure sp_XuLyTraNo đã vận hành chính xác theo kịch bản: hệ thống tự động tính toán dư nợ, ghi nhận lịch sử vào bảng Log và đưa ra danh sách gợi ý hoàn trả tài sản (Xe máy Honda SH) thỏa mãn điều kiện giá trị định giá đủ để bảo đảm cho khoản vay còn lại. Điều này chứng minh khả năng xử lý logic phức tạp và tính thực tiễn cao của hệ thống cơ sở dữ liệu đã xây dựng*
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e8140677-480b-46f8-83e9-6950472db867" />
+
+*Em đã triển khai bảng dữ liệu Log nhằm lưu trữ chi tiết từng lần thanh toán của khách hàng, tiêu biểu như trường hợp của Nguyễn Văn A. Cơ chế này cho phép ghi lại chính xác thời gian, số tiền và người tiếp nhận trong mỗi lần giao dịch, giúp hệ thống bảo toàn dấu vết dòng tiền theo thời gian và tránh việc ghi đè làm mất lịch sử công nợ.*
+
+
+
 
 
 
